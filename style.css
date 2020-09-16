@@ -1,0 +1,11 @@
+#image, #img-caption{
+  margin:auto;
+  display:block;
+  text-align:center;
+}
+/*if the browser is open in a screen AND it has a max width of __*/
+@media screen and (max-width:;) {
+  #image{
+
+  }
+}
