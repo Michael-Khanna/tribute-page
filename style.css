@@ -3,8 +3,17 @@
   display:block;
   text-align:center;
 }
+body{
+  background-color:rgb(66, 119, 166);
+}
 /*if the browser is open in a screen AND it has a max width of __*/
 @media screen and (max-width:;) {
+  #image{
+
+  }
+}
+/*if the browser is open in a screen AND it has a min width of __*/
+@media screen and (min-width:;) {
   #image{
 
   }
