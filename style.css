@@ -6,15 +6,29 @@
 body{
   background-color:rgb(66, 119, 166);
 }
+/*Macbook has a display of 2560 by 1600 pixels. Picture is 259 by 194*/
 /*if the browser is open in a screen AND it has a max width of __*/
-@media screen and (max-width:;) {
-  #image{
+@media (max-width: 1000px;) {
+  .image{
 
+   
   }
 }
+/*Macbook has a display of 2560 by 1600 pixels. Picture is 259 by 194*/
 /*if the browser is open in a screen AND it has a min width of __*/
 @media screen and (min-width:;) {
-  #image{
+  .image{
 
   }
 }
+article{
+  font-family: cursive;
+}
+ form, #question{
+   font-family: sans-serif;
+ }
+
+ #image:hover{
+    width:388.5px;
+    height:auto;
+ }
