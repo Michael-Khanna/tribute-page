@@ -1,3 +1,12 @@
+/*Picture original width is 500px*/
+
+img{
+  width:500px;
+  height:auto;
+}
+
+
+
 #image, #img-caption{
   margin:auto;
   display:block;
@@ -6,15 +15,12 @@
 body{
   background-color:rgb(66, 119, 166);
 }
-/*Macbook has a display of 2560 by 1600 pixels. Picture is 259 by 194*/
+/*Macbook has a display of 2560 by 1600 pixels. Picture simplifyed dimensions are 259 by 194*/
 /*if the browser is open in a screen AND it has a max width of __*/
-@media (max-width: 1000px;) {
-  .image{
+@media (max-width: 1009px;) {
 
-   
-  }
 }
-/*Macbook has a display of 2560 by 1600 pixels. Picture is 259 by 194*/
+/*Macbook has a display of 2560 by 1600 pixels. Picture simplifyed dimensions are 259 by 194*/
 /*if the browser is open in a screen AND it has a min width of __*/
 @media screen and (min-width:;) {
   .image{
@@ -31,4 +37,10 @@ article{
  #image:hover{
     width:388.5px;
     height:auto;
+ }
+ img{
+   width:100%;
+   height:auto;
+   max-width:500px;
+
  }
